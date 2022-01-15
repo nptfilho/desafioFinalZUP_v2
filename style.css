@@ -1,0 +1,50 @@
+body {
+  background-color: #1c1c1c;
+}
+
+main {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  position: relative;
+}
+
+main > section > img {
+  height: 300px;
+  margin: 15px 0;
+  width: 300px;
+}
+
+main > section > button {
+  background-color: #032530;
+  border-radius: 6px;
+  color: white;
+  font-family: Euclidbold;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: -0.6px;
+  line-height: 15px;
+  padding: 9px 23px;
+  text-transform: uppercase;
+}
+
+#detalhes-container {
+  font-weight: bold;
+  list-style-type: none;
+  width: 90%;
+}
+
+#detalhes-container > li {
+  align-items: baseline;
+  color: aliceblue;
+  display: flex;
+  font-family: Euclidbold;
+  text-transform: uppercase;
+}
+
+#detalhes-container > li p {
+  color: coral;
+  font-family: Euclidbold;
+  text-transform: uppercase;
+}
