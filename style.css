@@ -6,6 +6,50 @@ main {
   align-items: center;
   display: flex;
   height: 100vh;
-  justify-content: center;
+  justify-content: space-around;
   position: relative;
+  flex-basis: 100px;
+}
+
+main > section > img {
+  height: 300px;
+  margin: 15px 0;
+  width: 300px;
+}
+
+main > button {
+  background-color: #032530;
+  border-radius: 6px;
+  color: white;
+  font-family: Euclidbold;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: -0.6px;
+  line-height: 15px;
+  padding: 9px 23px;
+  text-transform: uppercase;
+}
+
+.click-bottun:hover {
+  cursor: pointer;
+}
+
+#detalhes-container {
+  font-weight: 600;
+  list-style-type: none;
+  width: 90%;
+}
+
+#detalhes-container > li {
+  align-items: baseline;
+  color: aliceblue;
+  display: flex;
+  font-family: Euclidbold;
+  text-transform: uppercase;
+}
+
+#detalhes-container > li p {
+  color: coral;
+  font-family: Euclidbold;
+  text-transform: uppercase;
 }
